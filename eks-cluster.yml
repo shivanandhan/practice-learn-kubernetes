@@ -1,12 +1,12 @@
  apiVersion: eksctl.io/v1alpha5
- kind: ClusterConfig
+kind: ClusterConfig
 
- metadata:
-  name: basic-practice
- region: us-east-1
+metadata:
+  name: basic-cluster
+  region: eu-east-1
 
 
- managedNodeGroups:
+managedNodeGroups:
   - name: ng-1
     desiredCapacity: 1
     spot: true
