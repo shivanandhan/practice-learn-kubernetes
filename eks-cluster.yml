@@ -2,7 +2,7 @@
  kind: ClusterConfig
 
  metadata:
-   name: basic-practice
+  name: basic-practice
  region: us-east-1
 
 
