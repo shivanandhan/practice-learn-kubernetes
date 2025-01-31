@@ -1,4 +1,5 @@
  apiVersion: eksctl.io/v1aplha5
+ Kind: ClusterConfig
 
  metadata:
    name: practice1
