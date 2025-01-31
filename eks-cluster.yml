@@ -3,6 +3,7 @@
 
  metadata:
    name: basic-practice
+ region: us-east-1
 
 
  managedNodeGroups:
