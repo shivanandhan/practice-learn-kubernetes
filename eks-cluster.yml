@@ -7,4 +7,5 @@ metadata:
 
 nodeGroups:
   - name: ng-1
+    desiredCapacity: 1
     spot: true
