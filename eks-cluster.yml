@@ -1,12 +1,12 @@
- apiVersion: eksctl.io/v1aplha5
- Kind: ClusterConfig
+ apiVersion: eksc
+ kind: ConfigMap
 
- metadata:
-   name: practice1
-   region: us-east-1
-
-
- managedNodeGroups:
-  - name: ng-1
-    desiredCapacity: 1
-    spot: true
+# metadata:
+#   name: practice1
+#   region: us-east-1
+#   version: "1.30"
+#
+# managedNodeGroups:
+#  - name: ng-1
+#    desiredCapacity: 1
+#    spot: true
